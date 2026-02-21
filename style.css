@@ -1,33 +1,53 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  text-align: center;
 }
 
-h1 {
-    background-color: #000;
-    color: white;
-    padding: 15px;
+header {
+  background: #111;
+  color: white;
+  padding: 20px;
 }
 
-p {
-    font-size: 18px;
-    margin: 20px;
+.hero {
+  padding: 60px 20px;
 }
 
-button {
-    padding: 10px 20px;
-    margin: 10px;
-    font-size: 16px;
-    border: none;
-    background-color: green;
-    color: white;
-    cursor: pointer;
-    border-radius: 5px;
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
 }
 
-button:hover {
-    background-color: darkgreen;
+.hero p {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 12px 25px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login {
+  background: #007bff;
+  color: white;
+}
+
+.sell {
+  background: #28a745;
+  color: white;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 15px;
+  background: #111;
+  color: white;
+  font-size: 14px;
 }
